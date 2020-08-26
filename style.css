@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+/* FONT IMPORTED */
+
+/* UNIVERSAL STYLING */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+body {
+    min-height: 200vh;
+    background: rgb(1, 56, 81);
+    /* Determining colour of Scot Scope's theme */
+}
+
+/* NAVBAR AREA */
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100000;
+    transition: 0.6s;
+    padding: 40px 100px;
+}
+
+header .shot-scope-tech-logo {
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+/* NAVBAR LINKS */
+
+header ul {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    color: black;
+}
+
+header ul li {
+    list-style: none;
+    position: none;
+}
+
+header ul li a {
+    margin: 0 15px;
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500px;
+    letter-spacing: 3px;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+}
+
+header ul li a:hover {
+    margin: 0 15px;
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500px;
+    letter-spacing: 4px;
+    transition: 0.5s;
+    color: rgb(20, 193, 245);
+    text-decoration-style: bold;
+}
+
+/* NAVBAR ARTICLES TO LINK TO EXTERNAL PAGES */
+
+.nav-article {
+    margin: 0 15px;
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500px;
+    letter-spacing: 3px;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+
+}
+
+/* SHOT SCOPE BACKGROUND IMAGE DESIGN FROM PHOTOSHOP */
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background: url(shot-scope-tech-background-gradient.png);
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-origin: inherit;
+    position: absolute;
+    background-position: right 90%, top 20%;
+    background-position-y: top 100%;
+    background-position-x: right;
+    left: 80px;
+    top: 20px;
+    padding: 20px;
+
+}
+
+/* INTRODUCTORY TITLE TO FAQs AREA */
+
+div.introduction {
+    display: flex;
+    max-width: 934px;
+    margin: 25px;
+    padding: 180px;
+    color: rgb(255, 255, 255);
+}
+
+/* QUESTION LINKS */
+
+.the-questions a,
+li {
+    color: rgb(20, 193, 245);
+
+}
+
+/* HOVER EFFECT ON QUESTIONS */
+
+.the-questions a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration-style: bold;
+}
+
+
+/* FOOTER AREA */
+
+.footer {
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: rgb(1, 56, 81);
+    margin: 0 auto;
+}
+
+.container-footer-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container-footer-link:hover {
+    color: rgb(20, 193, 245);
+}
